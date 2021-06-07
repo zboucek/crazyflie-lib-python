@@ -46,11 +46,11 @@ from cflib.crazyflie.swarm import CachedCfFactory
 from cflib.crazyflie.swarm import Swarm
 
 # Change uris according to your setup
-URI0 = 'radio://0/70/2M/E7E7E7E7E7'
-URI1 = 'radio://0/110/2M/E7E7E7E702'
-URI2 = 'radio://0/94/2M/E7E7E7E7E7'
-URI3 = 'radio://0/5/2M/E7E7E7E702'
-URI4 = 'radio://0/110/2M/E7E7E7E703'
+URI0 = 'radio://0/100/2M/E7E7E7E701'
+URI1 = 'radio://0/100/2M/E7E7E7E702'
+URI2 = 'radio://0/100/2M/E7E7E7E703'
+URI3 = 'radio://0/100/2M/E7E7E7E704'
+# URI4 = 'radio://0/110/2M/E7E7E7E703'
 
 # d: diameter of circle
 # z: altitude
@@ -58,7 +58,7 @@ params0 = {'d': 1.0, 'z': 0.3}
 params1 = {'d': 1.0, 'z': 0.3}
 params2 = {'d': 0.0, 'z': 0.5}
 params3 = {'d': 1.0, 'z': 0.3}
-params4 = {'d': 1.0, 'z': 0.3}
+# params4 = {'d': 1.0, 'z': 0.3}
 
 
 uris = {
@@ -66,7 +66,7 @@ uris = {
     URI1,
     URI2,
     URI3,
-    URI4,
+    # URI4,
 }
 
 params = {
@@ -74,7 +74,7 @@ params = {
     URI1: [params1],
     URI2: [params2],
     URI3: [params3],
-    URI4: [params4],
+    # URI4: [params4],
 }
 
 

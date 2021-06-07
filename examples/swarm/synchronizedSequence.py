@@ -58,9 +58,9 @@ Ring = namedtuple('Ring', ['r', 'g', 'b', 'intensity', 'time'])
 Quit = namedtuple('Quit', [])
 
 uris = [
-    'radio://0/10/2M/E7E7E7E701',  # cf_id 0, startup position [-0.5, -0.5]
-    'radio://0/10/2M/E7E7E7E702',  # cf_id 1, startup position [ 0, 0]
-    'radio://0/10/2M/E7E7E7E703',  # cf_id 3, startup position [0.5, 0.5]
+    'radio://0/100/2M/E7E7E7E704',  # cf_id 0, startup position [-0.5, -0.5]
+    'radio://0/100/2M/E7E7E7E702',  # cf_id 1, startup position [ 0, 0]
+    'radio://0/100/2M/E7E7E7E703',  # cf_id 3, startup position [0.5, 0.5]
     # Add more URIs if you want more copters in the swarm
 ]
 
@@ -91,6 +91,8 @@ sequence = [
 
     (11,   0,      Goto(-0.5, -0.5, 0.5, 2)),
     (11,   2,      Goto(0.5, 0.5, 0.5, 2)),
+
+    
 
     (13,    0,      Land(2)),
     (13,    1,      Land(2)),
